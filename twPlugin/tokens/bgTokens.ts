@@ -5,15 +5,16 @@ export const bgColorTokens = {
   surface: {
     DEFAULT: colorPrimitives.gray[2], // Light gray for clean surfaces
     muted: colorPrimitives.gray[4], // Slightly darker for subtle surface differentiation
-    overlay: colorPrimitives.gray[7], // For overlays like modals or dropdowns
+    overlay: colorPrimitives.gray[9], // For overlays like modals or dropdowns
     skeleton: colorPrimitives.gray[9], // For skeleton loaders and placeholders
     disabled: colorPrimitives.gray[5], // Muted mid-gray for disabled surfaces
   },
 
   // For brand-specific elements like headers, footers, or primary buttons
   brand: {
-    DEFAULT: colorPrimitives.gray[3], // Muted brand background
+    DEFAULT: colorPrimitives.gray[7], // Muted brand background
     disabled: colorPrimitives.gray[6], // Muted darker gray for disabled brand areas
+    medium: colorPrimitives.gray[8],
   },
 
   // For states indicating success (e.g., notifications, success banners)

@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "@mobily/ts-belt": "^3.13.1",
+    "@radix-ui/react-slot": "^1.1.0",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "class-variance-authority": "0.7.0",
@@ -42,8 +43,10 @@
     "@rollup/plugin-commonjs": "28.0.1",
     "@rollup/plugin-node-resolve": "15.3.0",
     "@rollup/plugin-typescript": "12.1.1",
+    "@storybook/addon-a11y": "^8.4.5",
     "@storybook/addon-essentials": "8.4.2",
     "@storybook/addon-interactions": "8.4.2",
+    "@storybook/addon-links": "^8.4.5",
     "@storybook/addon-onboarding": "8.4.2",
     "@storybook/blocks": "8.4.2",
     "@storybook/react": "8.4.2",
