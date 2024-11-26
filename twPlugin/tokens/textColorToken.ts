@@ -8,7 +8,7 @@ export const textColorTokens = {
   },
   // Text related to brand identity or focus elements
   brand: {
-    DEFAULT: colorPrimitives.gray[2], // Brand text color (using gray as the brand color)
+    DEFAULT: colorPrimitives.gray[7], // Brand text color
     fg: colorPrimitives.white[1], // Inverse color for brand text on dark background
   },
   // Text indicating success, used in positive feedback

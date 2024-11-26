@@ -7,6 +7,7 @@ import plugin from 'tailwindcss/plugin';
 import {
   bgColorTokens,
   radiusTokens,
+  ringColorTokens,
   textColorTokens,
   textSizeTokens,
 } from './tokens';
@@ -19,7 +20,10 @@ const config = {
       backgroundColor: bgColorTokens,
       borderRadius: radiusTokens,
       textColor: textColorTokens,
+      borderColor: bgColorTokens,
       fontSize: textSizeTokens,
+      ringColor: ringColorTokens,
+      ringOffsetColor: ringColorTokens,
     },
   },
 } satisfies Config;
